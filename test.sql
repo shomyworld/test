@@ -40,26 +40,26 @@ INSERT INTO `dogs` VALUES (1,'aka',1),(2,'ao',2),(3,'shiro',1),(4,'kuro',4);
 UNLOCK TABLES;
 
 --
--- Table structure for table `owner`
+-- Table structure for table `owners`
 --
 
-DROP TABLE IF EXISTS `owner`;
+DROP TABLE IF EXISTS `owners`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `owner` (
+CREATE TABLE `owners` (
   `id` int(255) DEFAULT NULL,
   `name` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `owner`
+-- Dumping data for table `owners`
 --
 
-LOCK TABLES `owner` WRITE;
-/*!40000 ALTER TABLE `owner` DISABLE KEYS */;
-INSERT INTO `owner` VALUES (1,'ichiro'),(2,'jiro'),(3,'saburo');
-/*!40000 ALTER TABLE `owner` ENABLE KEYS */;
+LOCK TABLES `owners` WRITE;
+/*!40000 ALTER TABLE `owners` DISABLE KEYS */;
+INSERT INTO `owners` VALUES (1,'ichiro'),(2,'jiro'),(3,'saburo');
+/*!40000 ALTER TABLE `owners` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -71,4 +71,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-09-14 20:46:13
+-- Dump completed on 2020-09-14 20:53:14
